@@ -116,4 +116,25 @@
   width: 240px;
   height: 30px;;
 }
+#Ebus {
+	margin: auto;
+	padding: 0px 5px 0px 25px;
+	background-size: cover;
+	width: 1370px;
+	float: left;
+}
+#Ebus .carousel-item {
+	height: 500px;
+	min-height: 350px;
+	background: no-repeat content-box center scroll;
+	background-size: cover;
+}
+#Ebus .py-5 h5 {
+	margin: auto;
+	padding: 20px;
+	font-size: 28px;
+}
+#Ebus .py-5 h1 {
+	font-size: 80px;
+}
 
