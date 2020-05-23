@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<title>Ebus-Login</title>
+  	<title>Ebus - Đăng Nhập</title>
   	<link rel="stylesheet" type="text/css" href="css/login_form.css">
   	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
   	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
@@ -60,6 +60,8 @@
         input.addEventListener("focus", addcl);
         input.addEventListener("blur", remcl);
       });
+
+	  
     </script>
 </body>
 </html>

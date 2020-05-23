@@ -15,10 +15,10 @@
 		<!-- Tab -->
 		<div class="tab">
 		  	<button class="tablinks" id="first_tablinks">
-		  		<img src="img/logo.png" alt="logo"/>Ebus
+		  		<img src="img/logo.png" alt="logo"/><a href="index.php">Ebus</a>
 		  	</button>
 
-		  	<button class="tablinks"  id="defaultOpen"  onclick="openFunction(event,'Home')">
+		  	<button class="tablinks" onclick="openFunction(event,'Home')">
 		  		<i class="fa fa-home"></i>Home
 		  	</button>
 
@@ -54,261 +54,167 @@
 
 	  	<!-- Nội dung của Ebus -->
 	  	<div id="content">
-	  		<a href="Login_Form.php">Log Out</a>
+		
+	  		
 	  	</div>
 	  	<!--Ebus End -->
 
 	  	<!-- Home -->
 		<div id="Home" class="tabcontent">
-			sdferyhrtyurtyurtyrtuyi6uol
+			
 	  	</div>
 	  	<!-- Home End -->
 
 	 	<!-- Officer -->
 		<div id="Officer" class="tabcontent">
-
-
+		
 		</div>
 		<!-- Officer End -->
 
 		<!--Operating-->
 		<div id="Operating" class="tabcontent">
-			  <h3>Danh Sách Tài Xế</h3>
-				<div class="tabbus">
-					<button class="tablink" onclick="openCar(event, 'car15')">Xe 15</button>
-					<button class="tablink" onclick="openCar(event, 'car16')">Xe 16</button>
-					<button class="tablink" onclick="openCar(event, 'car73')">Xe 73</button>
-					<button class="tablink" onclick="openCar(event, 'car84')">Xe 84</button>
-					<button class="tablink" onclick="openCar(event, 'car101')">Xe 101</button>
-					<button class="tablink" onclick="openCar(event, 'car144')">Xe 144</button>
-					<button class="tablink" onclick="openCar(event, 'car151')">Xe 151</button>
+			<div class="driver">
+				<h3>Danh Sách Nhân viên Xe</h3>
+				<div class="tab_driver">
+					<button class="tablinks_driver" onclick="openDriver(event, '15')">Xe 15</button>
+					<button class="tablinks_driver" onclick="openDriver(event, '16')">Xe 16</button>
+					<button class="tablinks_driver" onclick="openDriver(event, '73')">Xe 73</button>
+					<button class="tablinks_driver" onclick="openDriver(event, '84')">Xe 84</button>
+					<button class="tablinks_driver" onclick="openDriver(event, '101')">Xe 101</button>
+					<button class="tablinks_driver" onclick="openDriver(event, '144')">Xe 144</button>
+					<button class="tablinks_driver" onclick="openDriver(event, '151')">Xe 151</button>
 					<div class="search-container">
-						<form action="">							<!-- file liên kết ô tìm kiếm xe -->
-						    <input type="search" placeholder="Search.." name="search">
-						    <button><i class="fa fa-search"></i></button>
-						</form>
+						<input type="search" placeholder="Search.." />
 					</div>
 				</div>
-				<div id="car15" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
 
-				<div id="car16" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
-
-				<div id="car73" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
-				<div id="car84" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
-
-				<div id="car101" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
-
-				<div id="car144" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
-				<div id="car151" class="tabcontents">
-					<table>
-						<tr>
-							<td>Id</td>
-							<td>Picture</td>
-							<td>Username</td>
-							<td>Gender</td>
-							<td>Phone</td>
-							<td>Address</td>
-							<td>Date</td>
-							<td>Buses</td>
-							<td>Driver_license</td>
-						</tr>
-					</table>
-				</div>
-
-						<!-- danh saxh phu xe-->
-				<h3>Danh Sách Phụ Xe</h3>
-				<div class="tabbus">
-					<button class="tablink" onclick="openCar(event, 'car15')">Xe 15</button>
-					<button class="tablink" onclick="openCar(event, 'car16')">Xe 16</button>
-					<button class="tablink" onclick="openCar(event, 'car73')">Xe 73</button>
-					<button class="tablink" onclick="openCar(event, 'car84')">Xe 84</button>
-					<button class="tablink" onclick="openCar(event, 'car101')">Xe 101</button>
-					<button class="tablink" onclick="openCar(event, 'car144')">Xe 144</button>
-					<button class="tablink" onclick="openCar(event, 'car151')">Xe 151</button>
-					<div class="search-container">
-						<form action="">							<!-- file liên kết ô tìm kiếm xe -->
-						    <input type="search" placeholder="Search.." name="search">
-						    <button><i class="fa fa-search"></i></button>
-						</form>
-					</div>
-				</div>
-				<div id="car15" class="tabcontents">
-					<h3>car15</h3>
+				<div id="15" class="tabcontent_driver">
+					<h3>15</h3>
 					<p>London is the capital city of England.</p>
 				</div>
 
-				<div id="car16" class="tabcontents">
-					<h3>car16</h3>
+				<div id="16" class="tabcontent_driver">
+					<h3>16</h3>
 					<p>Paris is the capital of France.</p> 
 				</div>
 
-				<div id="car73" class="tabcontents">
-					<h3>car73</h3>
+				<div id="73" class="tabcontent_driver">
+					<h3>73</h3>
 					<p>Tokyo is the capital of Japan.</p>
 				</div>
-				<div id="car84" class="tabcontents">
-					<h3>car84</h3>
+				<div id="84" class="tabcontent_driver">
+					<h3>84</h3>
 					<p>London is the capital city of England.</p>
 				</div>
 
-				<div id="car101" class="tabcontents">
-					<h3>car101</h3>
+				<div id="101" class="tabcontent_driver">
+					<h3>101</h3>
 					<p>Paris is the capital of France.</p> 
 				</div>
 
-				<div id="car144" class="tabcontents">
-					<h3>car144</h3>
+				<div id="144" class="tabcontent_driver">
+					<h3>144</h3>
 					<p>Tokyo is the capital of Japan.</p>
 				</div>
-				<div id="car151" class="tabcontents">
-					<h3>car151</h3>
-					<p>Tokyo is the capital of Japan.</p>
+				<div id="151" class="tabcontent_driver">
+					<h3>151</h3>
+					<p>151 is the capital of Japan.</p>
 				</div>
+
+					<script>
+						function openDriver(evt, driverName) {
+						var i, tabcontent_driver, tablinks_driver;
+						tabcontent_driver = document.getElementsByClassName("tabcontent_driver");
+						for (i = 0; i < tabcontent_driver.length; i++) {
+							tabcontent_driver[i].style.display = "none";
+						}
+						tablinks_driver = document.getElementsByClassName("tablinks_driver");
+						for (i = 0; i < tablinks_driver.length; i++) {
+							tablinks_driver[i].className = tablinks_driver[i].className.replace(" active", "");
+						}
+						document.getElementById(driverName).style.display = "block";
+						evt.currentTarget.className += " active";
+						}
+					</script>
 			</div>
-			
-			
 
 			
-			<!-- thông tin xe buýt -->
-			<div id="Bus" class="tabcontent">
-				<h3>Danh Sách Xe Bus</h3>
-				<div class="tabbus">
-					<button class="tablink" onclick="openCar(event, 'car15')">Xe 15</button>
-					<button class="tablink" onclick="openCar(event, 'car16')">Xe 16</button>
-					<button class="tablink" onclick="openCar(event, 'car73')">Xe 73</button>
-					<button class="tablink" onclick="openCar(event, 'car84')">Xe 84</button>
-					<button class="tablink" onclick="openCar(event, 'car101')">Xe 101</button>
-					<button class="tablink" onclick="openCar(event, 'car144')">Xe 144</button>
-					<button class="tablink" onclick="openCar(event, 'car151')">Xe 151</button>
-					<div class="search-container">
-						<form action="">							<!-- file liên kết ô tìm kiếm xe -->
-						    <input type="search" placeholder="Search.." name="search">
-						    <button><i class="fa fa-search"></i></button>
-						</form>
-					</div>
-				</div>
-				<div id="car15" class="tabcontents">
-					<h3>car15</h3>
-					<p>London is the capital city of England.</p>
-				</div>
+			<div class="ticket_seller">
+				<h3>Danh Sách Nhân viên Bán Vé</h3>
 
-				<div id="car16" class="tabcontents">
-					<h3>car16</h3>
-					<p>Paris is the capital of France.</p> 
-				</div>
-
-				<div id="car73" class="tabcontents">
-					<h3>car73</h3>
-					<p>Tokyo is the capital of Japan.</p>
-				</div>
-				<div id="car84" class="tabcontents">
-					<h3>car84</h3>
-					<p>London is the capital city of England.</p>
-				</div>
-
-				<div id="car101" class="tabcontents">
-					<h3>car101</h3>
-					<p>Paris is the capital of France.</p> 
-				</div>
-
-				<div id="car144" class="tabcontents">
-					<h3>car144</h3>
-					<p>Tokyo is the capital of Japan.</p>
-				</div>
-				<div id="car151" class="tabcontents">
-					<h3>car151</h3>
-					<p>Tokyo is the capital of Japan.</p>
+			</div>
+		</div>
+			
+		<!-- tab content bus -->
+		<div id="Bus" class="tabcontent">	
+			<h3>Danh Sách Xe Bus</h3>
+			<div class="tab_bus">
+				<button class="tablinks_bus" onclick="openCar(event, '15')">Xe 15</button>
+				<button class="tablinks_bus" onclick="openCar(event, '16')">Xe 16</button>
+				<button class="tablinks_bus" onclick="openCar(event, '73')">Xe 73</button>
+				<button class="tablinks_bus" onclick="openCar(event, '84')">Xe 84</button>
+				<button class="tablinks_bus" onclick="openCar(event, '101')">Xe 101</button>
+				<button class="tablinks_bus" onclick="openCar(event, '144')">Xe 144</button>
+				<button class="tablinks_bus" onclick="openCar(event, '151')">Xe 151</button>
+				<div class="search-container">
+					<input type="search" placeholder="Search.." />
 				</div>
 			</div>
 
-			<!-- thông tin tuyến đường -->
-			<div id="Route" class="tabcontent">
-				  <p>tuyến đường.</p>
+			<div id="15" class="tabcontent_bus">
+				<h3>15</h3>
+				<p>London is the capital city of England.</p>
 			</div>
+
+			<div id="16" class="tabcontent_bus">
+				<h3>16</h3>
+				<p>Paris is the capital of France.</p> 
+			</div>
+
+			<div id="73" class="tabcontent_bus">
+				<h3>73</h3>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+
+			<div id="84" class="tabcontent_bus">
+				<h3>84</h3>
+				<p>London is the capital city of England.</p>
+			</div>
+
+			<div id="101" class="tabcontent_bus">
+				<h3>101</h3>
+				<p>Paris is the capital of France.</p> 
+			</div>
+
+			<div id="144" class="tabcontent_bus">
+				<h3>144</h3>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+
+			<div id="151" class="tabcontent_bus">
+				<h3>151</h3>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+			<script>
+				function openCar(evt, carName) {
+					var tabcontent_bus = document.getElementsByClassName("tabcontent_bus");
+					for (var i = 0; i < tabcontent_bus.length; i++) {
+						tabcontent_bus[i].style.display = "none";
+					}
+					var tablinks_bus = document.getElementsByClassName("tablinks_bus");
+					for (var i = 0; i < tablinks_bus.length; i++) {
+						tablinks_bus[i].className = tablinks_bus[i].className.replace(" active", "");
+					}
+					document.getElementById(carName).style.display = "block";
+					evt.currentTarget.className += " active";
+				}
+			</script>
+		</div>
+
+		<!-- thông tin tuyến đường -->
+		<div id="Route" class="tabcontent">
+			
+		</div>
 			
 			<!-- vé  -->
 			<div id="Ticket" class="tabcontent">
@@ -342,11 +248,6 @@
 				  	</li>
 				  	
 				  </ol>
-				</div>
-				<div id="ticket_images">
-					<h3>Hình ảnh về giá vé xe bus</h3>
-					<img src="" alt="" />
-					<img src="" alt="" />
 				</div>
 
 			</div>
