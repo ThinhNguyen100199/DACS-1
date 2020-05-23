@@ -53,8 +53,97 @@
 	  	<!-- Tab End -->
 
 	  	<!-- Nội dung của Ebus -->
-	  	<div id="content">
-		
+	  	<div id="Ebus">
+		<header>
+	<div
+		id="carouselExampleIndicators"
+		class="carousel slide"
+		data-ride="carousel"
+	>
+		<ol class="carousel-indicators">
+			<li
+				data-target="#carouselExampleIndicators"
+				data-slide-to="0"
+				class="active"
+			></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<!-- Slide One - Set the background image for this slide in the line below -->
+			<div
+				class="carousel-item active"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80https://unsplash.com/photos/6mcVaoGNz1w');
+				"
+			>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="display-4">First Slide</h3>
+					<p class="lead">This is a description for the first slide.</p>
+				</div>
+			</div>
+			<!-- Slide Two - Set the background image for this slide in the line below -->
+			<div
+				class="carousel-item"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1520105072000-f44fc083e508?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80https://source.unsplash.com/wfh8dDlNFOk/1920x1080');
+				"
+			>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="display-4">Second Slide</h3>
+					<p class="lead">This is a description for the second slide.</p>
+				</div>
+			</div>
+			<!-- Slide Three - Set the background image for this slide in the line below -->
+			<div
+				class="carousel-item"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1578634427572-83cf0bf3ae8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+				"
+			>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="display-4">Third Slide</h3>
+					<p class="lead">This is a description for the third slide.</p>
+				</div>
+			</div>
+		</div>
+		<a
+			class="carousel-control-prev"
+			href="#carouselExampleIndicators"
+			role="button"
+			data-slide="prev"
+		>
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a
+			class="carousel-control-next"
+			href="#carouselExampleIndicators"
+			role="button"
+			data-slide="next"
+		>
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</header>
+<!-- Page Content -->
+<section class="py-5">
+	<div class="container">
+		<h1 class="font-weight-light"><strong> BusMap Là Gì?</strong></h1>
+		<h5 class="lead">
+			Xe buýt ngày càng trở thành phương tiện công cộng phổ biến, mọi
+			người được khuyến khích sử dụng xe buýt nhiều hơn vì độ an toàn và
+			thân thiện với môi trường. Ở TP. Hồ Chí Minh có hơn 100 tuyến xe
+			buýt khác nhau với hơn 2000 điểm dừng. Vì vậy việc di chuyển bằng xe
+			buýt trong các đô thị này là hết sức thuận tiện.<br />
+			<i
+				>Từ lí do đó, BusMap đã ra đời với mục đích sẽ giúp cho mọi người
+				đi xe buýt tốt hơn và thuận tiện hơn.
+			</i>
+		</h5>
+	</div>
+</section>
 	  		
 	  	</div>
 	  	<!--Ebus End -->
